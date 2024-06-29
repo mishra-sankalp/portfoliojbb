@@ -1,0 +1,18 @@
+.box-sizing{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.list-style{
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: url("icons8-gun-48.png");
+}
+.text-decoration{
+    text-decoration: underline;
+}
+html{
+    scroll-behavior:smooth;
+}
+::-webkit-scrollbar{
+    display:none;
+}

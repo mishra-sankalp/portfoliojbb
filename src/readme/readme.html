@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="readme.css">
+</head>
+<body>
+    <h1>info about various elements styles used in project</h1>
+    <ol class="box-sizing">
+        <h2>box-sizing</h2>
+        <li>The box-sizing property in CSS is used to control how the total width and height of an element are calculated, taking into account the padding and border of the element. It allows you to specify whether an element's dimensions should include its padding and border or exclude them from the calculation.
+        </li>
+        <li>
+            <h3>content-box:-</h3>
+            <p>It is a default box-model where padding height and width is according to the content we have....it includes only content....means that we have content area other than padding margin and border....it does not include border and padding</p>
+        </li>
+        <li>
+            <h3>border-box:</h3>
+            <p>When we include border-box we have border , margin and padding inclusive in the overall dimension i.e, unlike content-box it has content=content+margin+border+padding.....</p>
+        </li>
+    </ol>
+    <h2>list-style</h2>
+    <ol class="list-style">
+        <li>list-style property is used to control the appearance of list items </li>
+        <li>The list-style property can take three values:
+            <ol><li>list-style-type: This value is used to set the type of marker/bullet point for the list items eg- none,disc,circle etc....</li>
+            <li>list-style-position: This value is used to set the position of the marker relative to the list item's content.</li>
+            <li>list-style-image: This value allows you to specify a custom image as the marker for the list items. You can use a URL to an image file to set this value.</li></ol>
+        </li>
+    </ol>
+    <ol class="text-decoration">
+        <h2>text-decoration</h2>
+        <li>the text-decoration property is used to control the decoration of text, such as underlines, overlines, line-throughs, and blinking effects. It allows you to style the appearance of text to add visual emphasis or decoration.
+
+        </li>
+    </ol>
+    <h2>:root in css</h2>
+    <ol class="pseudo class-selector"><li>In CSS (Cascading Style Sheets), the :root selector is a pseudo-class that represents the root element of the document. In most cases, the root element is the html element.</li>
+
+       <li> When you use :root in your CSS, you can define global styles that apply to the entire document or webpage. This is particularly useful for setting variables or defining CSS custom properties (also known as CSS variables) that can be used throughout your CSS code.</li></ol>
+       <h2>scroll behaviour in css</h2>
+       <ol class="scroll-behaviour"><li>n CSS, the scroll-behavior property is used to control the scrolling behavior of an element with overflow content (such as a container with scrollable content). It allows you to define whether the scrolling should be smooth or instant.</li></ol>
+       <h2>object-fit property</h2>
+       <ol><li>The object-fit property in CSS is used to control how an image or video is scaled and positioned within its container element. It allows you to define how the media element should be fitted into the available space while preserving its aspect ratio.</li>
+    <li>The object-fit property can be applied to
+      <ul>
+        <li>img</li>
+        <li>video</li>
+        <li>svg tags</li>
+      </ul>
+    </li>
+    <li>The possible values for the object-fit property are:
+        <ul>
+            <li>
+                fill: This is the default value. The image or video will completely fill its container, potentially stretching or squishing it to fit both the width and height of the container. This may cause the media to lose its original aspect ratio.
+            </li>
+            <li>
+                contain: The image or video will be scaled proportionally to fit entirely within its container while maintaining its aspect ratio. It will be centered within the container, and there may be empty spaces around the media if the container's aspect ratio is different from the media's aspect ratio.
+            </li>
+            <li>
+                cover: The image or video will be scaled proportionally to cover the entire container while maintaining its aspect ratio. It may overflow the container, and some parts of the media might be cropped.
+            </li>
+            <li>
+                none: The image or video will be displayed at its original size, and it may overflow the container if it's larger than the container.
+            </li>
+            <li>
+                scale-down: The image or video will be scaled down proportionally to fit its container while maintaining its aspect ratio. It behaves like contain, but if the media's natural size is smaller than the container, it will be displayed at its natural size.
+            </li>
+        </ul>
+    </li>
+</ol>
+<h2>header tag</h2>
+<header>
+<ol>
+    <li>It is typically used to define the header section of a page, which often includes elements like logos, navigation menus, headings, and other essential content that appears at the top of the page or the top of a specific section</li>
+</ol>
+</header>
+<h2>overflow</h2>
+<ol><li>"overflow" refers to how content that overflows the dimensions of a container element should be handled. It is used to control the behavior of content when it exceeds the allocated space within a box.</li></ol>
+<h2>z index</h2>
+<ol><li>In CSS, the z-index property is used to control the stacking order of positioned elements, particularly when they overlap each other. It determines which elements appear in front of or behind other elements on the z-axis (depth axis), similar to how the "depth" works in a 3D space.</li></ol>
+<h2>backdrop-filter</h2>
+<ol><li>The backdrop-filter property in CSS is used to apply visual effects, such as blurring or color shifting, to the area behind an element. It allows you to create interesting effects by altering the appearance of the background that is "backdropped" by a particular element, without affecting the content of that element itself.</li></ol>
+</body>
+</html>
